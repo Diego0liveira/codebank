@@ -1,4 +1,4 @@
-module github.com/Diego0liveira/Imersao_FullCycle-3.0
+module github.com/Diego0liveira/codebank
 
 go 1.15
 

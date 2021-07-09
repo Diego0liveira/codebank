@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/dto"
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/infrastructure/grpc/pb"
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/usecase"
+	"github.com/Diego0liveira/codebank/dto"
+	"github.com/Diego0liveira/codebank/infrastructure/grpc/pb"
+	"github.com/Diego0liveira/codebank/usecase"
 	"github.com/golang/protobuf/ptypes/empty"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

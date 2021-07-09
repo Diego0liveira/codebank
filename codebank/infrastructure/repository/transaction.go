@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/domain"
+	"github.com/Diego0liveira/codebank/domain"
 )
 
 type TransactionRepositoryDb struct {

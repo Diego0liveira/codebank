@@ -4,9 +4,9 @@ import (
 	"log"
 	"net"
 
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/infrastructure/grpc/pb"
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/infrastructure/grpc/service"
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/usecase"
+	"github.com/Diego0liveira/codebank/infrastructure/grpc/pb"
+	"github.com/Diego0liveira/codebank/infrastructure/grpc/service"
+	"github.com/Diego0liveira/codebank/usecase"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

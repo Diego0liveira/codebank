@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/domain"
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/dto"
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/infrastructure/kafka"
+	"github.com/Diego0liveira/codebank/domain"
+	"github.com/Diego0liveira/codebank/dto"
+	"github.com/confluentinc/confluent-kafka-go/kafka"
 )
 
 type UseCaseTransaction struct {

@@ -6,10 +6,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/infrastructure/grpc/server"
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/infrastructure/kafka"
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/infrastructure/repository"
-	"github.com/Diego0liveira/Imersao_FullCycle-3.0/usecase"
+	"github.com/Diego0liveira/codebank/infrastructure/grpc/server"
+	"github.com/Diego0liveira/codebank/infrastructure/kafka"
+	"github.com/Diego0liveira/codebank/infrastructure/repository"
+	"github.com/Diego0liveira/codebank/usecase"
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
 )

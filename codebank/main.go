@@ -60,7 +60,7 @@ func setupDb() *sql.DB {
 func serveGrpc(processTransactionUseCase usecase.UseCaseTransaction) {
 	grpcServer := server.NewGRPCServer()
 	grpcServer.ProcessTransactionUseCase = processTransactionUseCase
-	fmt.Println("Rodando gRPC Server")
+	fmt.Println("Rodando gRPC Server...")
 	grpcServer.Serve()
 }
 

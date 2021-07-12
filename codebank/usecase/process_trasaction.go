@@ -7,7 +7,7 @@ import (
 
 	"github.com/Diego0liveira/codebank/domain"
 	"github.com/Diego0liveira/codebank/dto"
-	"github.com/confluentinc/confluent-kafka-go/kafka"
+	"github.com/Diego0liveira/codebank/infrastructure/kafka"
 )
 
 type UseCaseTransaction struct {

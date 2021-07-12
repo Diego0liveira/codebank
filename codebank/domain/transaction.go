@@ -8,8 +8,8 @@ import (
 
 type TransactionRepository interface {
 	SaveTransaction(transaction Transaction, creditCard CreditCard) error
-	getCreditcard(creditCard CreditCard) (CreditCard, error)
-	CreatedCreditcard(creditCard CreditCard) error
+	GetCreditCard(creditCard CreditCard) (CreditCard, error)
+	CreateCreditCard(creditCard CreditCard) error
 }
 
 type Transaction struct {

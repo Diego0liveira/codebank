@@ -9,4 +9,5 @@ require (
 	github.com/lib/pq v1.10.2 // indirect
 	github.com/satori/go.uuid v1.2.0
 	google.golang.org/grpc v1.39.0
+	google.golang.org/protobuf v1.26.0
 )
